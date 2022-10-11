@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/users-three.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/query.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="assets/js/all.js"></script>
+    
+  </head>
+  <body class="body">
+    <div class="container">
+      <section class="nav">
+        <div class="nav-profile">
+          <img
+            src="assets/img/profile-icon.png"
+            alt="user-image"
+            class="user-image"
+          />
+          <p class="user-name">Akhed Jenish</p>
+        </div>
+        <hr class="dash" />
+        <menu class="menu">
+          <p class="menu-name">MENU</p>
+          <ul class="menu-items">
+            <li>
+              <a href="home.html"><i class="ph-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="#" class="link1-im"
+                ><i class="ph-telegram-logo"></i>Instant Messenger</a
+              >
+              <a href="#" class="link2-im"
+                ><i class="ph-telegram-logo"></i>Instant<br />
+                Messenger</a
+              >
+            </li>
+            <li>
+              <a href="notes.html"><i class="ph-note-pencil"></i>Notes</a>
+            </li>
+            <li>
+              <a href="community.html" id="menu-active"
+                ><i class="ph-users-three"></i>Community</a
+              >
+            </li>
+            <li>
+              <a href="myprofile.html"><i class="ph-user"></i>My Profile</a>
+            </li>
+            <li class="nav-logout">
+              <a href="#"><i class="ph-sign-out"></i>Log Out</a>
+            </li>
+          </ul>
+        </menu>
+        <a href="contact.html" class="contact-us-btn">Contact Us</a>
+      </section>
+      <section class="search">
+        <button class="nav-btn">
+          <i class="ph-list" name="open-nav"></i
+          ><i class="ph-x" name="close-nav"></i>
+        </button>
+        <div class="search-bar">
+          <input type="text" placeholder="Search" class="search-bar-input" />
+          <button class="search-icon-btn">
+            <i class="ph-magnifying-glass"></i>
+          </button>
+        </div>
+        <button class="log-out">LOG OUT</button>
+      </section>
+      <section class="main community-main">
+      <div class="feed">
+      <div class="com-main">
+        <div class= "comm-logo">
+          <img id="logo" src="assets/img/sublogo.png">
+        </div>
+        <div class="com-title">
+          <h3 id="title">Machine Learning</h3>
+        </div>
+        <div class="com-join">
+          <button id="join">Join</button>
+        </div>
+      </div>
+
+      <div class="create-post">
+        <input id ="title" type="text" placeholder="Enter Title"> 
+        <input id="image" type="image" name="image" id="img">
+        <input id="desc" type="text" placeholder="Enter Description">
+        <button id="post">Post</button>
+      </div>  
+
+      
+      <div class="card">
+        <div class="card-image">
+          <img id="post-image" src="assets/img/CNN.jpeg" alt="">
+        </div>
+        <div class="card-text">
+          <span class="user-name">Takshil Kunadia</span>
+          <h2 id="title">Convolutional Neural Network</h2>
+          <p id="description">Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+        </div>
+        <div class="card-buttons">
+          <div class="like">
+            <button id="Dislike" style="background-color: transparent; border: 0; color: aliceblue; cursor: pointer;">      
+              <i class="ph-thumbs-up"></i> 
+
+            </button>
+          </div>
+          <div class="Likes">
+            <div class="type">1023</div>
+          </div>
+          <div class="Dislike">
+            <button id="Dislike" style="background-color: transparent; border: 0; color: aliceblue; cursor: pointer;">            
+              <i class="ph-thumbs-down"></i> 
+           </button> 
+          </div>
+          <div class="Comments">
+            <div class="type">
+              <button id="cmt" style="background-color: transparent; border: 0; color: aliceblue; cursor: pointer;"><i class="ph-chat-teardrop-dots"></i></button>
+            </div>
+          </div>
+        </div>
+      
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img id="post-image" src="assets/img/CNN.jpeg" alt="">
+          </div>
+          <div class="card-text">
+            <span class="user-name">Takshil Kunadia</span>
+            <h2 id="title">Convolutional Neural Network</h2>
+            <p id="description">Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+          </div>
+          <div class="card-after-buttons">
+            <div class="like">
+              <button id="Dislike" style="background-color: transparent; border: 0; color: aliceblue; cursor: pointer;">      
+                <i class="ph-thumbs-up"></i> 
+  
+              </button>
+            </div>
+            <div class="Likes">
+              <div class="type">1023</div>
+            </div>
+            <div class="Dislike">
+              <button id="Dislike" style="background-color: transparent; border: 0; color: aliceblue; cursor: pointer;">            
+                <i class="ph-thumbs-down"></i> 
+             </button> 
+            </div>
+           
+            
+          </div>
+          <div class="post-comments">
+            <input id="typing" type="text" placeholder="Enter Tippani">
+            <button id="post">Post</button>
+        </div>
+        <div class="comments">
+          <br>
+          <h5 id= "user-name">Jenish Maru</h5>
+          <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, accusantium suscipit quidem error quas laboriosam animi totam quibusdam ea, voluptatibus minus atque, hic veniam sequi distinctio in dolores labore porro.</h4>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
